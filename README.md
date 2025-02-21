@@ -1,25 +1,3 @@
-# Market Anomaly Detection
-
-## Milestone 1
-
-In this project, I experimented with different models (e.g. Isolation Forest, XGBoost, Linear Regression ...) with different parameters in order to 
-to determine the best model that will produce the best results for the given data (data can be viewed in FinancialMarketData.csv). I was able to determine that 
-the Random Forest model with max_depth=20 and n_estimators=200 with an accuracy of 94.17%! 
-
-## Milestone 2 (in progress)
-
-During this milestone, a system is being created to propose a data-driven investment strategy based on the model’s predictions, focusing on minimizing losses or maximizing returns.
-
-Plan:
-After having the saved model, I will then create a basic web app for users to use and to help them strategize a plan. The data will mostly come from Yahoo Finance and
-the user will be able to query from a React.js UI. The reasoning aspect will come from the saved model and the Cerebras Inference model.
-
-Technologies considering:
-- React.js
-- Cerebras Inference
-- Model saved from previous milestone
-- Yahoo Finance API
-
 
 # Market Anomaly Detection 
 
